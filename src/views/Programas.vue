@@ -4,7 +4,7 @@
       <h2 class="page-title">PROGRAMAS INSTITUCIONALES</h2>
 
       <div class="banner">
-        <img :src="require('@/assets/planificacion.png')" alt="planificacion" class="banner-img" />
+        <img :src="banner" alt="planificacion" class="banner-img" />
       </div>
 
       <section class="programs-grid">
@@ -37,8 +37,13 @@
 </template>
 
 <script>
+import banner from '@/assets/planificacion.png'
+
 export default {
-  name: 'ProgramasView'
+  name: 'ProgramasView',
+  data() {
+    return { banner }
+  }
 }
 </script>
 

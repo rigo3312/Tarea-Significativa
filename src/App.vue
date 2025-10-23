@@ -2,9 +2,13 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-    | <router-link to="/orgint">Orgint</router-link>
+    | <router-link to="/orgint">Organización Institucional</router-link>
     | <router-link to="/servicios">Servicios</router-link>
     | <router-link to="/programas">Programas</router-link>
+    | <router-link to="/EducacionSuperiorView">Institución</router-link>
+    | <router-link to="/ContactenosView">Contactenos</router-link>
+
+
   </nav>
   <router-view/>
 </template>

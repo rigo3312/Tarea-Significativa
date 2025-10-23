@@ -33,6 +33,16 @@ const routes = [
     path: '/programas',
     name: 'programas',
     component: () => import(/* webpackChunkName: "programas" */ '../views/Programas.vue')
+  },
+  {
+    path: '/ContactenosView',
+    name: 'ContactenosView',
+    component: () => import(/* webpackChunkName: "ContactenosView" */ '../views/ContactenosView.vue')
+  },
+    {
+    path: '/EducacionSuperiorView',
+    name: 'EducacionSuperiorView',
+    component: () => import(/* webpackChunkName: "EducacionSuperiorView" */ '../views/EducacionSuperiorView.vue')
   }
 ]
 
