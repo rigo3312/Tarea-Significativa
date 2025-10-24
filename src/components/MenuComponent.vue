@@ -44,7 +44,7 @@
             <span class="arrow">▼</span>
           </p>
           <ul class="dropdown-menu" :class="{ show: activeDropdown === 'trabajo' }">
-            <li><router-link to="/nuestro-trabajo/logros">Programas</router-link></li>
+            <li><router-link to="/programas">Programas</router-link></li>
           </ul>
         </li>
         <li class="dropdown" @mouseenter="openDropdown('institucion')" @mouseleave="closeDropdown('institucion')">
@@ -53,7 +53,7 @@
             <span class="arrow">▼</span>
           </p>
           <ul class="dropdown-menu" :class="{ show: activeDropdown === 'institucion' }">
-            <li><router-link to="/institucion/estructura">Educacion Superior</router-link></li>
+            <li><router-link to="/EducacionSuperiorView">Educacion Superior</router-link></li>
           </ul>
         </li>
         <li class="dropdown" @mouseenter="openDropdown('contacto')" @mouseleave="closeDropdown('contacto')">
@@ -62,7 +62,7 @@
             <span class="arrow">▼</span>
           </p>
           <ul class="dropdown-menu" :class="{ show: activeDropdown === 'contacto' }">
-            <li><router-link to="/contacto/formulario">Directorio y Horario de Atencion</router-link></li>
+            <li><router-link to="ContactenosView">Directorio y Horario de Atencion</router-link></li>
           </ul>
         </li>
         <li class="dropdown" @mouseenter="openDropdown('organismos')" @mouseleave="closeDropdown('organismos')">
@@ -71,7 +71,7 @@
             <span class="arrow">▼</span>
           </p>
           <ul class="dropdown-menu" :class="{ show: activeDropdown === 'organismos' }">
-            <li><router-link to="/organismos/cooperacion">Banco Mundial</router-link></li>
+            <li><router-link to="/orgint">Banco Mundial</router-link></li>
           </ul>
         </li>
       </ul>
